@@ -28,8 +28,8 @@ app.use(static)
 /*Index route*/
 
 app-get("/", function(req, res){
-res. render("index", {title: "Home"})
-} )
+  res. render("index", {title: "Home"})
+})
 
 
 /* ***********************
